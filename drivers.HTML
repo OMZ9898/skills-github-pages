@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a Driver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="booking.html">Book a Service</a></li>
+                <li><a href="drivers.html">Become a Driver</a></li>
+                <li><a href="membership.html">Join Our Membership</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Become a Shiraz Recovery Driver</h2>
+        <form id="driverForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="vehicleType">Vehicle Type:</label>
+            <select id="vehicleType" name="vehicleType" required>
+                <option value="car">Car</option>
+                <option value="truck">Truck</option>
+                <option value="motorcycle">Motorcycle</option>
+            </select>
+
+            <button type="submit" class="btn-primary">Submit Application</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Shiraz Recovery Services. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
